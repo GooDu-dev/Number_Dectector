@@ -27,3 +27,26 @@ Here is what I used
 ```pip install --upgrade opencv-python==3.2.0.8```
 ```pip install --upgrade matplotlib```
 
+**Test your installation**
+```python```
+```import tensorflow as tf```
+```hello = tf.constants('hello, tensroflow')```
+```tf.Session()```
+if tensorflow can detect your GPU. There is a text similar to `Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 3003 MB memory) -> physical GPU (device: 0, name: NVIDIA GeForce GTX 1050, pci bus id: 0000:01:00.0, compute capability: 6.1)`
+
+2) Create a packages / folders
+create a directory like this
+```
+--Dectect_Number
+    |
+    |-- test
+    |   |-- 1
+    |   |-- 2
+    |-- train
+    |   |-- 1
+    |   |-- 2
+    |-- main.py
+```
+
+3) run model
+```python main.py```
