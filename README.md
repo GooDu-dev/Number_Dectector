@@ -14,8 +14,8 @@ Here is what I used
 ## Train a number detector with tensorflow-gpu 1.13.3 on window 10
 1Install cuDNN, CUDA, tensorflow-gpu, keras, opencv-python, matplotlib <br />
 &emsp;1.1 I recommend python version 3.6.12 and work with [Anaconda](https://www.anaconda.com/products/distribution) <br />
-1.2 Install CUDA v10.0 <br />
-1.3 install cuDNN v8.6.0 <br />
+&emsp;1.2 Install CUDA v10.0 <br />
+&emsp;1.3 install cuDNN v8.6.0 <br />
 
 **install python 3.6.12 in anaconda**
 ```
