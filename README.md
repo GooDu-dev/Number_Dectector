@@ -48,7 +48,7 @@ python
 import tensorflow as tf
 ```
 ```
-hello = tf.constants('hello, tensroflow')
+hello = tf.constant('hello, tensroflow')
 ```
 ```
 tf.Session()
